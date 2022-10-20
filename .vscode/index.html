@@ -5,39 +5,45 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+  <link rel="stylesheet" href="./styles.css">
   <title>Mi Pokemon</title>
 </head>
 
 <body>
-  <header>
+  <header class="headerInfo">
     <h1>Mi Pokemon</h1>
     <h2>GRUPO B4</h2>
   </header>
-  <main>
-    <div>
-      <h3>Mi Pokemon</h3>
-    </div>
-    <div>
-      <form>
-        <label for="name">Nombre</label>
-        <input type="text" id="name" name="name" placeholder="Nombre">
-        <label for="number">Escribe tu numero favorito</label>
-        <input type="number" id="number" name="number" placeholder="Numero">
-        <button type="submit">Guardar</button>
-      </form>
-    </div>
-    <div>
-      <h3>Tu Pokemon</h3>
+  <main class="container">
+    <div class="container_info">
+      <div class="container_info2">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/9/98/International_Pok%C3%A9mon_logo.svg"
+          alt="Pokemon">
+        <div>
+          <form class="container_info_form">
+            <label for="name">Nombre</label>
+            <input type="text" id="name" name="name" placeholder="Nombre">
+            <label for="number">Escribe tu numero favorito</label>
+            <input type="number" id="number" name="number" placeholder="Numero">
+            <button type="submit">Buscar</button>
+          </form>
+        </div>
+      </div>
       <div>
-        <p>Nombre: </p>
-        <p>Numero: </p>
-        <img src="" alt="">
-        <p>Nombre</p>
+        <div class="container_info2">
+          <div class="container_img">
+            <div id="isertImg">
+              <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/1.png"
+                alt="">
+            </div>
+            <p id="insertName">Nombre</p>
+          </div>
+        </div>
       </div>
     </div>
   </main>
 </body>
-
 
 </html>
 <!-- <script src="index.js"></script> -->

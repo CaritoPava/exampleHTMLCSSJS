@@ -1,0 +1,116 @@
+body {
+  font-size: 20px;
+  font-family: "Roboto", serif;
+  margin: 0;
+  padding: 0;
+}
+
+.headerInfo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: #512DA8;
+  color: white;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.container_info {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: -100px;
+}
+
+.container_info2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container_info_form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 70px;
+
+}
+
+.container_info_form input {
+  width: 100%;
+  height: 30px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  border: 1px solid #512DA8;
+  border-radius: 5px;
+  padding-left: 10px;
+}
+
+.container_info_form button {
+  width: 100%;
+  height: 30px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  border: 1px solid #512DA8;
+  border-radius: 5px;
+  background-color: #512DA8;
+  color: white;
+
+}
+
+.container_info_form button:hover {
+  background-color: #4c2d82;
+}
+
+.container_img {
+  background-image: url("./assent/pokelivar\ \(1\).png");
+  width: 600px;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 70px;
+}
+
+.container_img img {
+  margin-top: 220px;
+  width: 55%;
+  height: auto;
+}
+
+.container_img p {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: -2px;
+}
+
+#insertName {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+
+#isertImg {
+  width: 50%;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
